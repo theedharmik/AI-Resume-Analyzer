@@ -10,7 +10,7 @@ import Suggestions from './components/Suggestions.jsx'
 import './App.css'
 
 // Backend base URL. Change this if your FastAPI server runs elsewhere.
-const API_URL = 'http://127.0.0.1:8000/analyze'
+const API_URL = 'https://ai-resume-analyzer-2ud6.onrender.com/analyze'
 
 function App() {
   const [resumeFile, setResumeFile] = useState(null)
